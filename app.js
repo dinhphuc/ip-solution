@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
     res.json(networkInterfaces);
 });
 
-app.listen(3000, '0.0.0.0', () => {
-    console.log('Server is running on http://0.0.0.0:3000');
+app.listen(31248, '0.0.0.0', () => {
+    console.log('Server is running on http://0.0.0.0:31248');
 });
